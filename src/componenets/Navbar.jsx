@@ -17,15 +17,10 @@ const Navbar = () => {
           <div className=" flex flex-shrink-0 items-center ">
           <h1 className='text-4xl font-extrabold 	 text-cyan-400 cursor-pointer'> A .M</h1>
           </div>
-          <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+          <div className='m-8 flex items-center justify-center gap-8 text-4xl'>
               <a href='https://www.linkedin.com/in/abdelfettah-mostakir/' target="_blank"><FaLinkedin/></a>
               <a href="https://github.com/Xliight" ><FaGit/></a>
-              <a href="https://discord.gg/9TnUPntb" target="_blank"><FaDiscord/>
-              </a>
-
-
-              
-
+ 
           </div>
 
       </nav>

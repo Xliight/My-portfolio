@@ -10,15 +10,15 @@ const Projects = () => {
         initial={{opacity:0,y:-100}}
         transition={{duration:0.5}}
         className='my-20 text-center text-4xl'>Projects</motion.h2>
-        <div className=' justify-center items-center'>
+        <div className=' justify-center items-center '>
             {PROJECTS.map((proj,index)=>(
                 <div key={index} className='mb-8 flex flex-wrap lg:justify-center' >
                     <motion.div 
                      whileInView={{opacity:1,x:0}}
                      initial={{opacity:0,x:-100}}
                      transition={{duration:1}}
-                    className="w-full lg:w-1/4">
-                        <img  src={proj.image} alt={proj.title} width={200} max-height={150}
+                    className="w-6xl lg:w-1/4 ">
+                        <img   src={proj.image} alt={proj.title} width={200} max-height={150}
                         className='mb-6 rounded ' />
                     </motion.div>
                         <motion.div
