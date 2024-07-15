@@ -26,7 +26,12 @@ const Hero = () => {
                     initial='hidden' animate='visible'
                     className='my-2 max-w-xl py-6 font-light tracking-tighter'>
                       {HERO_CONTENT}
+                      
                     </motion.p>
+                    <a className="inline-block rounded-xl border border-indigo-600 bg-indigo-600 px-6 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-500 focus:outline-none focus:ring active:text-indigo-500"
+                        href="/cv.pdf"
+                      >
+                        Download CV</a>
                 </div>
             </div>
             <div className=" m-auto h-[500px] lg:w-1/2 lg:p-8  ">
