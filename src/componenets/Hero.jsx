@@ -28,10 +28,13 @@ const Hero = () => {
                       {HERO_CONTENT}
                       
                     </motion.p>
-                    <a className="inline-block rounded-xl border border-indigo-600 bg-indigo-600 px-6 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-500 focus:outline-none focus:ring active:text-indigo-500"
+                    <motion.a 
+                    variants={container(1)}
+                    initial='hidden' animate='visible'
+                    className="inline-block rounded-xl border border-indigo-600 bg-indigo-600 px-6 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-green-500 focus:outline-none focus:ring active:text-indigo-500"
                         href="/cv.pdf"
                       >
-                        Download CV</a>
+                        Download CV</motion.a>
                 </div>
             </div>
             <div className=" m-auto h-[500px] lg:w-1/2 lg:p-8  ">
