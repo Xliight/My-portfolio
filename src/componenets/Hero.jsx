@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from "../constants"
-import portt from "../assets/portt.png"
+import portt from "../assets/mine.png"
 import { motion } from "framer-motion"
 const container=(delay)=>({
   hidden:{x:-100,opacity:0},visible:{
