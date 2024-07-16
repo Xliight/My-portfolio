@@ -6,6 +6,7 @@ import Technologies from './componenets/Technologies'
 import Experience from './componenets/Experience'
 import Projects from './componenets/Projects'
 import Contact from './componenets/Contact'
+import Service from './componenets/Service'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <About/>
+        <Service/>
         <Technologies/>
         <Experience />
         <Projects/>
