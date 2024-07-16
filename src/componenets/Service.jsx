@@ -54,10 +54,10 @@ const Service = () => {
                 We develope unique expertise in business development and customer experience. We are Highly recognized on developing businesses.
                 </p>
                 <div className='px-6 pt-4 pb-6 pl-2 font-sm '>
-                    <li>UX & UL DESIGN</li>
-                    <li>BRAND IDENTITY</li>
-                    <li>SOCIAL MEDIA</li>
-                    <li>PACKAGING</li>
+                    <li>DIGITAL TRANSFORMATION</li>
+                    <li>PROJECTS SUPPORT</li>
+                    <li>PROJECT MANAGEMENT</li>
+
                 </div>
             </div>
            
