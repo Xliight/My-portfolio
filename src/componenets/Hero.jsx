@@ -16,7 +16,7 @@ const Hero = () => {
                     <motion.h1  variants={container(0)}
                     initial='hidden' animate='visible'
                     className='pb-16 text-7xl  tracking-tight lg:mt-16
-                       lg:text-5xl font-semibold ' >Abdelfettah MOSTAKIR</motion.h1>
+                       lg:text-5xl  font-semibold ' >Hi, It's Abdelfettah MOSTAKIR</motion.h1>
                     <motion.span variants={container(0.3)}
                     initial='hidden' animate='visible'
                     className="bg-gradient-to-r from-pink-300 via-slate-500
