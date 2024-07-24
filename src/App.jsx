@@ -1,4 +1,5 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import Navbar from './componenets/Navbar'
 import Hero from './componenets/Hero'
 import About from './componenets/About'
@@ -8,11 +9,16 @@ import Projects from './componenets/Projects'
 import Contact from './componenets/Contact'
 import Service from './componenets/Service'
 
+=======
+import Navbar from "./navbar/Navbar"
+import './App.css'
+>>>>>>> origin/main
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+<<<<<<< HEAD
     <div className=' overflow-x-hidden text-neutral-300 antialiased 
     selection:bg-cyan-300 selection:text-cyan-900' >
       <div className=" fixed top-0 -z-10 h-full w-full">
@@ -32,6 +38,11 @@ function App() {
       </div>
       
     </div>
+=======
+    <>
+      <Nabar />
+    </>
+>>>>>>> origin/main
   )
 }
 

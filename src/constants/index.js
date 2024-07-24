@@ -12,7 +12,7 @@ a passion for creating efficient and user-friendly web applications.  I have wor
   to deliver high-quality solutions. Outside of coding, I enjoy staying active, 
   exploring new technologies, and contributing to open-source projects.`;
 
-export const ABOUT_TEXT = ``;
+
 
 export const EXPERIENCES = [
   {

@@ -24,7 +24,11 @@ const Hero = () => {
                     <motion.p
                     variants={container(0.8)}
                     initial='hidden' animate='visible'
+<<<<<<< HEAD
                     className='my-2 max-w-xl py-6 font-light leading-8 tracking-tighter'>
+=======
+                    className='my-2 max-w-xl py-6 font-light tracking-tighter'>
+>>>>>>> origin/main
                       {HERO_CONTENT}
                       
                     </motion.p>

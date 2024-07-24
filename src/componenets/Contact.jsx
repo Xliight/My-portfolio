@@ -5,6 +5,7 @@ import { animate, motion } from "framer-motion"
 const Contact = () => {
   return (
     <div className='border-b border-neutral-900 pb-4 flex flex-col items-center'>
+    <div className='border-b border-neutral-900 pb-4'>
       
         <motion.h2 
           whileInView={{opacity:1,y:0}}
@@ -12,6 +13,9 @@ const Contact = () => {
           transition={{duration:0.5}}
           className='mt-20 mb-10 text-center text-4xl'>Contact Us</motion.h2>
           {/*<div className="flex  justify-center ">
+=======
+          className='mt-20 mb-10 text-center text-4xl'>Get in Touch</motion.h2>
+          <div className="flex  justify-center ">
             <div className=" tracking-tighter">
                 <motion.p 
                 whileInView={{opacity:1,x:0}}
@@ -34,6 +38,9 @@ const Contact = () => {
       </div>
     </div>
     
+=======
+          </div>
+        
   )
 }
 
