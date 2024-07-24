@@ -76,11 +76,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Spring Boot"],
   },
   {
-    title: "Portfolio Website",
+    title: "Car Rental Platform",
     image: project4,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: [ "React", "TailwindCss","framer Motion"],
+      "Implementation of a web application for carpooling: Developed to allow private car owners to rent their vehicles online using Express, PostgreSQL .",
+    technologies: [ "Nextjs", "Expressjs","PostgreSQL "],
   },
 
 ];
